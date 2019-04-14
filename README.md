@@ -1,7 +1,7 @@
 # JPMorganDailyTradeReportEngine
  
 
-#Daily Trade Reporting Engine 
+## Daily Trade Reporting Engine 
 
   
 It’s a daily trade reporting engine for incoming instructions sent by various clients to **JP Morgan** to execute in the international market.   
@@ -9,7 +9,7 @@ It’s a daily trade reporting engine for incoming instructions sent by various 
 The instructions sent as input gives the resulted output as a **report printed in console**.   
 
   
-##Instruction 
+## Instruction 
 
 The  **instruction**  is a model which describes the instructions sent by various clients . 
 
@@ -31,7 +31,7 @@ It includes information such as:
 
   
 
-##The Business days 
+## The Business days 
 
 A work week starts Monday and ends Friday, unless the currency of the trade is **AED** or **SAR**, where the work week starts Sunday and ends Thursday. No other holidays to be taken into account. Depending on the currency of each instruction the settlement date is calculated. 
 
@@ -47,12 +47,12 @@ The **Rank** class represents the ranking, entity and date of a record.
 The **ReportGenerator** class is responsible of generating reports.
 
   
-##Demo 
+## Demo 
 
 **TradeReportGenerator**  class that contains a set of sample instructions and  **ReportGenerator** class is responsible for generating the report. 
 Run **Main.java** and observe the output in console.
 
-##Sample Data  
+## Sample Data  
   
   Entity | Buy/Sell | Agreed Fx|Currency |Instruction Date |Settlement Date |Units |Price per unit
 --- | --- | ---| ---| ---| ---| ---| ---
